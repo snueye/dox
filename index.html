@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>h4ck3d user</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: red;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: darkred;
+        }
+        .message {
+            display: none;
+            font-size: 24px;
+            color: red;
+            margin-top: 20px;
+        }
+        .message.show {
+            display: block;
+        }
+        .message a {
+            color: #00f;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>info</h1>
+    <button class="button" onclick="document.querySelector('.message').classList.add('show')">click to show info
+
+    </button>
+    <div class="message">
+        <p><strong>warning!</strong></p>
+        <p>you got a suspicios activity</p>
+        <p>please contact technical support </p>
+        <p><a href="https://www.microsoft.com/en-us/support" target="_blank">https://www.microsoft.com/en-us/support</a></p>
+    </div>
+</body>
+</html>
+
+
